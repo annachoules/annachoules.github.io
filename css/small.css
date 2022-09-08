@@ -5,15 +5,16 @@
 /* body rules here */
 
 body {
-    font-family: Verdana;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
 
 }
 
 /* header rules here */
 header {
-    background-color: #FFA500;
+    background-color: #F2E085;
     padding: 1rem 2%;
+    color: #200E0E;
 }
 
 header h1 {
@@ -24,7 +25,7 @@ header h2 {
 }
 
 /* navigation rule here */
-nav {background-color: #111;}
+nav {background-color: #F2CB05;}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav li.active {background-color: #333;}
@@ -43,9 +44,11 @@ nav a:hover {background-color: #444;}
 main {
     padding: 1rem 2%;
     display: block;
+    color: #200E0E;
+    background-color: #F2F2F2;
 
 }
-main h1 {color: #FFA500;}
+main h1 {color: #F2CB05;}
 
 main figure img {width: 100%;}
 main figure{
@@ -57,7 +60,7 @@ main figcaption {text-align: center; font-size: .8rem;}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #FFA500;
+    background-color: #F2E085;
 }
 
 .clearfix:after {
